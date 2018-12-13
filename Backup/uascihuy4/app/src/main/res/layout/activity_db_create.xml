@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".FirebaseDBCreateActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textSize="20dp"
+        android:text="PERKENALKAN DIRI ANDA!" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Jenis Kelamin:"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="Perempuan"
+            android:textSize="15dp" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="18dp"
+            android:text="Rentang Usia:" />
+
+        <Spinner
+            android:id="@+id/et_usia"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:entries="@array/usialist"
+            android:prompt="@string/usialist"></Spinner>
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:text="Tingkat Pendidikan:" />
+
+        <Spinner
+            android:id="@+id/et_tingkatpendidikan"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:entries="@array/pendidikanlist"
+            android:prompt="@string/pendidikanlist"></Spinner>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:text="Tingkat Pekerjaan:" />
+
+        <Spinner
+            android:id="@+id/et_pekerjaan"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:entries="@array/pekerjaanlist"
+            android:prompt="@string/pekerjaanlist"></Spinner>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:text="E-mail:" />
+
+        <EditText
+            android:id="@+id/et_jeniskelamin"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:layout_margin="3dp"
+            android:inputType="textEmailAddress" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="@android:color/transparent"
+        android:text="Kirim" />
+
+</LinearLayout>
