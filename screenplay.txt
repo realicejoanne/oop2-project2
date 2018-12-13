@@ -1,0 +1,55 @@
+Screenplay
+
+1. Splash screen
+     Isinya logo Perantara trus loading.
+
+2. Form
+     Muncul untuk penggunaan pertama aja.
+     Form tdd:
+- Jenis Kelamin (Laki2/Perempuan) >> Radio button
+- Usia (< 17 tahun, 17-25 tahun, 25-40 tahun, > 40 tahun) >> Dropdown
+- Tingkat pendidikan (Tidak bersekolah, SD/MI, SMP/MTs, SMA/SMK, Perguruan Tinggi) >> Dropdown
+- Pekerjaan (Tidak bekerja, PNS/TNI/Polri, Swasta, Wiraswasta, Mahasiswa, Pelajar, Lainnya) >> Dropdown
+- E-mail >> Short text (setahu aing bisa diatur malah biar pas keyboard muncul ada @ di keyboardnya jadi dia gausah pencet symbol dulu kalo mau cari @ kesannya emg khusus utk ngisi e-mail)
+
+3. Ada apa dengan payudara saya?
+     Dua orang ngobrol, rencananya orgnya munculnya pelan2 wkwkwk kalo kyk powerpoint muncul per satu tokoh gitu deh ngefading.
+     Teksnya ada di gambar.
+
+4. Menu
+     Menu kotak2 gitu, tdd:
+     - Apa itu kanker payudara?
+     - Pencegahan
+     - Penanganan
+     - Kontak
+     Buat nama menu belom fix bozqu.
+
+*****Nomer 5-8 itu pake swipe yang Fauzi.*****
+
+5. Apa itu kanker payudara?
+     Kanker payudara adalah… yaudah gitu aja. Cari aja di internet.
+
+6. Bagaimana cara mencegah kanker payudara?
+     Sadari salira. Ada di gambar.
+
+7. Bagaimana cara menangani kanker payudara?
+     Gatau aing. Cari aja di internet.
+
+8. Siapa yang akan menolong saya?
+     Ibu tidak sendirian. Ada di gambar.
+
+*****Navigation Drawer*****
+Tdd:
+- Nama aplikasi + Versi
+- Pengaturan (opsional hehe)
+- Tentang (kalo diklik ke no 9)
+- Keluar
+
+9. Tentang aplikasi ini/tim kita
+     Aplikasi ini ditujukan untuk mengedukasi masyarakat mengenai kanker payudara. Diharapkan melalui aplikasi ini masyarakat dapat mengetahui apa itu kanker payudara dan dapat melakukan pencegahan maupun penanganannya serta dapat menebarkan informasi ini kepada keluarga dan teman-teman.
+
+     Dibuat dengan penuh cinta oleh:
+     Fauzi Faruq Nabbani
+     Shofiyyah Nadhiroh
+     Patricia Joanne
+     Erick Paulus, M.Kom. (kali ya gatau aing gelarnya)
